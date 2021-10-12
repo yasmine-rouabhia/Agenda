@@ -1,0 +1,85 @@
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(98, 201, 201);
+    }
+
+.sous-titre{
+    display: flex;
+    justify-content: center;
+    background-color:orange;
+    }
+
+h3{
+    background-color:black;
+    color: white;
+    }
+
+.heure, h4{
+    background-color: silver;
+    } 
+
+.jour{
+    background-color: rgb(198, 230, 212);
+    }
+
+.repas{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(218, 126, 126);
+    }
+
+table{
+    text-align: center;
+    margin: auto;
+    }
+
+button.big-button {
+    padding: 1em 2em;
+    border: 2px solid, rgb(76, 155, 66);
+    border-radius: 1em;
+    background:rgb(182, 226, 115);
+    transform-style: preserve-3d;
+    }
+
+h2{
+    text-align: center;
+    color: rgb(252, 247, 247);
+    background-color: black;
+    margin:20px;
+    padding: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    }    
+    
+.inter{
+    text-align: center;
+    background-color:rgb(126, 115, 115) ;
+    color: honeydew;
+    margin: 20px;
+    padding: 20px;
+    margin-right: 25%;
+    margin-left: 25%;
+    }
+
+.ligne2{
+    text-align: center;
+    background-color: rgb(160, 149, 149);
+    margin: 20px;
+    padding: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    }
+
+.ligne3{
+    text-align: center;
+    background-color: rgb(228, 208, 208);
+    margin: 20px;
+    padding: auto;
+    margin-left: 25%;
+    margin-right: 25%;
+    }
+
+.envoi{
+    text-align: center;
+    }

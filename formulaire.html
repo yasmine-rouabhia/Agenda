@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+    <meta charset="utf-8">
+        <html lang="fr">
+            <link rel="stylesheet" href="agenda.css">
+                <head>
+                    <title>Formulaire</title>
+                </head>
+                    <body>
+                        <h2>Formulaire d'ajout</h2>    
+                    <div class="inter">        
+                            <label for="start">Date:</label>
+                                    <input type="date" id="start" name="trip-start"value="11/10/2021" 
+                                        min="01/10/2021" max="31/10/2021">       
+                            <form method="post" action="agenda.html">
+                    </div>
+                            <p>
+                    <div class="ligne2">        
+                            <label for="Catégorie">Catégorie</label><br>
+                                <select name="Catégorie" id="Catégorie">
+                                    <optgroup label="Pro">
+                                        <option value="Project Pool">Project Pool</option>
+                                        <option value="Révision">Révision</option>
+                                        <option value="P.P">P.P Groupe</option>
+                                        <option value="royaume-uni">Anglais</option>
+                                        <option value="Français">Français</option>
+                                    </optgroup>
+                                    <optgroup label="Perso">
+                                        <option value="Repos">Repos</option>
+                                        <option value="Boutique">Boutique</option>
+                                        <option value="Repas">Repas</option>
+                                        <option value="Grasse">Grasse mat</option>
+                                    </optgroup>
+                                </select>
+                    </div>
+                            </p>
+                            <p>
+                    <div class="ligne3">        
+                            <label for="ameliorer">Message</label>
+                                <br>
+                                    <textarea name="ameliorer" id="ameliorer"></textarea>
+                    </div>
+                            </p>
+                            </form>
+                    <div class="envoi">
+                                <input type="submit" value="Envoyer"/>
+                    </div>        
+                    </body>
+        </html>
